@@ -62,7 +62,7 @@ char	*get_next_line(int fd)
 		static_storage = NULL;
 	return (line);
 }
-#include <stdio.h>
+/*#include <stdio.h>
 int	main(void)
 {
 	char	*line;
@@ -84,4 +84,4 @@ int	main(void)
 	}
 	close(fd);
 	return (0);
-}
+}*/
